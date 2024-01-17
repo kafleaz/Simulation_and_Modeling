@@ -23,5 +23,6 @@ int main()
     for(i=1; i<=n; i++)
     {
         printf("%f\n", (float)r[i]/m);
+
     }
 }

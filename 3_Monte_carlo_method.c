@@ -1,5 +1,6 @@
 //Implement MOnte-carlo method
-// program to implement monte carlo method to determine the probability of getting 3, 6, 9 heads in 10 flip of a coin.
+// program to implement monte carlo method to determine the 
+//probability of getting 3, 6, 9 heads in 10 flip of a coin.
 
 #include<stdio.h>
 #include<time.h>
@@ -25,13 +26,15 @@ int main()
             x = (double)rand()/RAND_MAX;
             if(x<0.5)
             {
-                printf("H\n");
+                printf("H");
+                h++;
             }
             else
             {
-                printf("T \n");
+                printf("T");
             }
         }
+        printf("\n");
         if(h==3 || h==6 || h==9)
         {
             t++;
